@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="">
+    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="boj 15651 해결">
+      <change afterPath="$PROJECT_DIR$/java/Boj/Boj14888J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Boj/Boj9663J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/util/FastReaderKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Boj/Boj14888.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin/Boj_15651_k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/Boj_15651_k.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Boj_15651.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Boj/Boj15651J.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/util/FastReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/util/FastReaderJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/Boj_15651_k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/Boj/Boj15651Ko.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +26,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20zd9LHtVFzJeYut8mUT5iQtfxi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,6 +56,11 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.28045976" />
     <property name="settings.editor.selected.configurable" value="ics" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Boj" />
+    </key>
   </component>
   <component name="RunManager" selected="Kotlin.RunMainKt">
     <configuration name="RunMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -100,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637073268660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="boj 15651 해결">
+      <created>1637074914024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637074914024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,52 +140,169 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>6</line>
-          <properties field="selected" class="Boj_15651" />
+          <properties field="sb" class="Boj.Boj15651J" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>5</line>
-          <properties field="N" class="Boj_15651" />
+          <properties field="N" class="Boj15651J" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>4</line>
-          <properties field="sb" class="Boj_15651" />
+          <properties field="sb" class="Boj15651J" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>21</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>23</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>24</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>20</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/Boj_15651.java</url>
+          <url>file://$PROJECT_DIR$/java/Boj/Boj15651J.java</url>
           <line>16</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>13</line>
+          <properties myFieldName="nums" myClassName="Boj.Boj14888Ko" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>14</line>
+          <properties myFieldName="operator" myClassName="Boj.Boj14888Ko" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>9</line>
+          <properties myFieldName="max" myClassName="Boj.Boj14888Ko" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>10</line>
+          <properties myFieldName="min" myClassName="Boj.Boj14888Ko" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>8</line>
+          <properties myFieldName="N" myClassName="Boj.Boj14888Ko" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>16</line>
+          <properties class="Boj.Boj14888Ko" method="input">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>31</line>
+          <properties class="Boj.Boj14888Ko" method="rec_fun">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>21</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

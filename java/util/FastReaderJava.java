@@ -3,15 +3,15 @@ package util;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class FastReader {
+public class FastReaderJava {
     BufferedReader br;
     StringTokenizer st;
 
-    public FastReader() {
+    public FastReaderJava() {
         br = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    public FastReader(String s) throws FileNotFoundException {
+    public FastReaderJava(String s) throws FileNotFoundException {
         br = new BufferedReader(new FileReader(new File(s)));
     }
 

@@ -1,7 +1,9 @@
+package Boj
+
 import java.util.*
 import kotlin.properties.Delegates
 
-class Boj_15651_k {
+class Boj15651Ko {
 
     private var N by Delegates.notNull<Int>()
     private var M by Delegates.notNull<Int>()

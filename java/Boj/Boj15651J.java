@@ -1,13 +1,15 @@
-import util.FastReader;
+package Boj;
 
-public class Boj_15651 {
+import util.FastReaderJava;
+
+public class Boj15651J {
 
     StringBuilder sb = new StringBuilder();
     int N, M;
     int[] selected;
 
     void input() {
-        FastReader scan = new FastReader();
+        FastReaderJava scan = new FastReaderJava();
         N = scan.nextInt();
         M = scan.nextInt();
         selected = new int[M + 1];
