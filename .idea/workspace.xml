@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj1152Ko.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin/basicStudy/regexStudy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/basicStudy/regexStudy.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640523506060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="password check 수정, boj8958 complete">
+      <created>1640650906641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640650906641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,7 +152,8 @@
     <MESSAGE value="boj 15651 해결" />
     <MESSAGE value="boj 14888 해결" />
     <MESSAGE value="정규식, 위임 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="정규식, 위임 공부" />
+    <MESSAGE value="password check 수정, boj8958 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="password check 수정, boj8958 complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
