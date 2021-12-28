@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlin/basicStudy/DelegatedStudy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin/basicStudy/regexStudy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/basicStudy/regexStudy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/basicStudy/regexStudy.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,14 +131,22 @@
       <option name="project" value="LOCAL" />
       <updated>1640135224083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="정규식, 위임 공부">
+      <created>1640523506060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640523506060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="레포지토리 새ㅐㅇ성" />
     <MESSAGE value="boj 15651 해결" />
     <MESSAGE value="boj 14888 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="boj 14888 해결" />
+    <MESSAGE value="정규식, 위임 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="정규식, 위임 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,6 +315,41 @@
           <url>file://$PROJECT_DIR$/kotlin/Boj/Boj14888Ko.kt</url>
           <line>33</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/kotlin/Boj/stringStudy/Boj8958Ko.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

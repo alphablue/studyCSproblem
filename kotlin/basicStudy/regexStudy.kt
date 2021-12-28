@@ -6,7 +6,7 @@ private const val MIN = 8
 private const val MAX = 20
 
 // 동일한 문자, 숫자 확인
-private const val CONTINUOUSNUM = """(\w)\1\1"""
+private val CONTINUOUSNUM = """(\w)\1\1"""
 
 // 공백확인
 private const val BLANKCHECK = """(\s)"""
@@ -15,6 +15,7 @@ private const val BLANKCHECK = """(\s)"""
 private const val REGEX = """^((?=.*\d)(?=.*[a-zA-Z])(?=.*[\W]).{$MIN,$MAX})$"""
 
 private val testStrings = arrayOf(
+    "1122334455a!",
     "votmdnj&em123",
     "kjs@aldkjfklj43",
     "QBWfklj4543",
@@ -72,6 +73,11 @@ private fun isValidPW(password: String?): Boolean {
         return isValid
     }
 
+
+    // 동일한 문자, 숫자 확인, 만약에 숫자로만 이루어진 데이터가 있다면
+    // 최소한 숫자가 하나이상인 경우에 확인을 해야 함으로 +를 쓰는게 맞음
+    val TRIPLESAMEREGEX = """(\w)+\1\1"""
+
     // 연속된 동일 문자 확인 3개 이상
     if (upperPW.matches(Regex(CONTINUOUSNUM))) {
         println("동일한 문자 3개이상")
@@ -102,11 +108,62 @@ private fun isValidPW(password: String?): Boolean {
     return isValid.not()
 }
 
+private fun checkPw(pin: String): Boolean{
+
+    // 동일한 문자, 숫자 확인
+    val TRIPLESAMEREGEX = """(\w)+\1\1"""
+
+    // 동일한 숫자 3자리가 존재하는가 (true: 존재함)
+    val isValid = false
+
+    // 연속된 동일 문자 확인 3개 이상
+    if (pin.matches(Regex(TRIPLESAMEREGEX))) {
+        return isValid
+    }
+
+    // 연속된 숫자 확인
+    val asciiArray = mutableListOf<Int>()
+
+    // 아스키 코드의 데이터로 변환후 저장
+    pin.forEach {
+        asciiArray.add(it.code)
+    }
+
+    // 3개의 인덱스를 비교해 1, 2, 3 과 같이 연속되는 패스워드가 있는지 확인
+    for (idx in 0 until asciiArray.size - 2) {
+        if ((asciiArray[idx] > 47 && asciiArray[idx + 2] < 58) ||
+            (asciiArray[idx] > 64 && asciiArray[idx + 2] < 91)
+        ) {
+            if (abs(asciiArray[idx + 2] - asciiArray[idx + 1]) == 1 &&
+                abs(asciiArray[idx + 2] - asciiArray[idx]) == 2
+            ) {
+                return isValid
+            }
+        }
+    }
+    return isValid.not()
+}
+
 
 fun regexRun() {
-    testStrings.forEach {
-        print("$it    result : \n")
-        println(isValidPW(it))
+//    testStrings.forEach {
+//        print("$it    result : \n")
+//        println(isValidPW(it))
+//    }
+
+    val test = arrayOf(
+        "111222",
+        "112233",
+        "123456",
+        "012345",
+        "987654",
+        "121212",
+        "092123",
+        "099009"
+    )
+
+    test.forEach {
+        println(checkPw(it))
     }
 
 }
