@@ -1,4 +1,4 @@
-package Boj.stringStudy
+package boj.stringStudy
 
 import util.FastReaderKotlin
 

@@ -1,4 +1,4 @@
-package Boj
+package boj
 
 import java.util.*
 import kotlin.properties.Delegates
