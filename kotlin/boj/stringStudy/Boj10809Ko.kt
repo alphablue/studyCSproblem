@@ -1,6 +1,6 @@
 package boj.stringStudy
 
-class Boj10809 {
+class Boj10809Ko {
 
     /**
      * range를 활용해서 데이터 저장을 할 수 있음 ascii 를 활용해서 저장하거나

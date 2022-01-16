@@ -1,15 +1,14 @@
 import boj.Boj14888J
-import boj.stringStudy.Boj10809
-import boj.stringStudy.Boj1152Ko
+import boj.stringStudy.Boj10809Ko
 
 fun main() {
     val javaRun = Boj14888J()
-    val kotlinRun = Boj10809()
+    val kotlinRun = Boj10809Ko()
 
 //    javaRun.run()
-    kotlinRun.run()
+//    kotlinRun.run()
 
 //    runTest()
-//    delegateStudyRun()
+    delegateStudyRun()
 //    regexRun()
 }

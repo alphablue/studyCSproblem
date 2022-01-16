@@ -63,6 +63,19 @@ val user2 = User2(mapOf(
     "age" to 25
 ))
 
+internal class DelegatePerson(private val map: MutableMap<String, String>) {
+    var name by map
+    var age by map
+
+    fun showDataStructure() {
+        println(map.keys)
+        println(map.values)
+        println(name)
+        println(age)
+    }
+}
+
+
 class Resource
 
 class Owner {
@@ -129,8 +142,14 @@ fun delegateStudyRun() {
     println(user2.name)
     println(user2.age)
 
+    // user2는 읽기만 가능하지만 DelegatePerson은 쓰기까지 가능함
+    // 신기한 점은 val name by map 일때 객체명이 String이던 무엇이던 key로 저장될 수 있고
+    // 외부에서 저장하는 것은 value로 저장 될 수 있다는 점이다.
+    // 아래 예로 보면 map["name"] = "man" 과 같은 의미이다.
+    val person = DelegatePerson(mutableMapOf())
+    person.name = "man"
+    person.age = "23"
+    person.showDataStructure()
 
-    val regex = "(\\w)\\1\\1\\1".toRegex()
-    val test = "1112222".matches(regex)
-    println(test)
+
 }
