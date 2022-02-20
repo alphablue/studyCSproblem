@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kotlin/programmers/kakao2022/Recruitment01.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin/LateinitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin/basicStudy/DelegatedStudy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/basicStudy/DelegatedStudy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin/boj/stringStudy/Boj10809.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/boj/stringStudy/Boj10809Ko.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,7 @@
   <component name="ProjectId" id="20zd9LHtVFzJeYut8mUT5iQtfxi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640653203379</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="deletegated study">
+      <created>1642348738386</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642348738386</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,7 +177,8 @@
     <MESSAGE value="password check 수정, boj8958 complete" />
     <MESSAGE value="boj1152 complete" />
     <MESSAGE value="boj 10809 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="boj 10809 complete" />
+    <MESSAGE value="deletegated study" />
+    <option name="LAST_COMMIT_MESSAGE" value="deletegated study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

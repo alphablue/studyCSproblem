@@ -1,14 +1,14 @@
 import boj.Boj14888J
-import boj.stringStudy.Boj10809Ko
+import programmers.kakao2022.Recruitment01
 
 fun main() {
     val javaRun = Boj14888J()
-    val kotlinRun = Boj10809Ko()
+    val kotlinRun = Recruitment01()
 
 //    javaRun.run()
-//    kotlinRun.run()
+    kotlinRun.run()
 
 //    runTest()
-    delegateStudyRun()
+//    delegateStudyRun()
 //    regexRun()
 }
