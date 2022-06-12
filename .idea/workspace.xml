@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlin/programmers/kakao2022/Recruitment01.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/boj/stringStudy/CookBookRegex.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/programmers/kakao2022/Recruitment01.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +60,23 @@
       <recent name="Boj" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.RunMainKt">
+  <component name="RunManager" selected="Kotlin.CookBookRegexKt">
+    <configuration name="CookBookRegexKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.stringStudy.CookBookRegexKt" />
+      <module name="studyCSproblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunMainKt" />
+      <module name="studyCSproblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleTestKt" />
       <module name="studyCSproblem" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CookBookRegexKt" />
+        <item itemvalue="Kotlin.SimpleTestKt" />
         <item itemvalue="Kotlin.RunMainKt" />
         <item itemvalue="Python.Test" />
       </list>
@@ -166,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642348738386</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2022 카카오 1번 풀이중">
+      <created>1645344918449</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645344918449</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,7 +203,8 @@
     <MESSAGE value="boj1152 complete" />
     <MESSAGE value="boj 10809 complete" />
     <MESSAGE value="deletegated study" />
-    <option name="LAST_COMMIT_MESSAGE" value="deletegated study" />
+    <MESSAGE value="2022 카카오 1번 풀이중" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 카카오 1번 풀이중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
