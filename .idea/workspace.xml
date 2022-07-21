@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kotlin/boj/stringStudy/CookBookRegex.kt" afterDir="false" />
+    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="패스워드 정규식 적용">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/fast_369/BOJ1260/solution_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/fast_369/BOJ1260/solution_matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/fast_369/graph_search/BOJ1260.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/fast_369/graph_search/BOJ1260My.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin/programmers/kakao2022/Recruitment01.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/boj/stringStudy/CookBookRegex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/boj/stringStudy/CookBookRegex.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +38,31 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20zd9LHtVFzJeYut8mUT5iQtfxi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.28045976" />
-    <property name="settings.editor.selected.configurable" value="ics" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/yong/IdeaProjects/studyCSproblem/kotlin/fast_369/graph_search/java",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yong\IdeaProjects\studyCSproblem\kotlin\fast_369\graph_search\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sjhis\Desktop\android_project\studyCSproblem\kotlin\BasicStudy" />
     </key>
@@ -60,7 +70,14 @@
       <recent name="Boj" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CookBookRegexKt">
+  <component name="RunManager" selected="Kotlin.BOJ1260MyKt">
+    <configuration name="BOJ1260MyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fast_369.graph_search.BOJ1260MyKt" />
+      <module name="studyCSproblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CookBookRegexKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.stringStudy.CookBookRegexKt" />
       <module name="studyCSproblem" />
@@ -94,6 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -105,10 +123,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BOJ1260MyKt" />
         <item itemvalue="Kotlin.CookBookRegexKt" />
         <item itemvalue="Kotlin.SimpleTestKt" />
         <item itemvalue="Kotlin.RunMainKt" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637051205096</updated>
+      <workItem from="1655080148520" duration="27000" />
+      <workItem from="1655080187136" duration="2456000" />
+      <workItem from="1655261823256" duration="3826000" />
+      <workItem from="1657505238461" duration="5802000" />
+      <workItem from="1657763248720" duration="1131000" />
+      <workItem from="1658363496977" duration="11504000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새ㅐㅇ성">
       <created>1637051780413</created>
@@ -191,8 +215,29 @@
       <option name="project" value="LOCAL" />
       <updated>1645344918449</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="패스워드 정규식 적용">
+      <created>1655118946155</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655118946155</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="레포지토리 새ㅐㅇ성" />
@@ -204,7 +249,8 @@
     <MESSAGE value="boj 10809 complete" />
     <MESSAGE value="deletegated study" />
     <MESSAGE value="2022 카카오 1번 풀이중" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 카카오 1번 풀이중" />
+    <MESSAGE value="패스워드 정규식 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="패스워드 정규식 적용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,5 +457,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
