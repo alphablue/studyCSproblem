@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="날짜 계산 하는 방법 자료 조사 및 테스트" />
+    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="날짜 계산 하는 방법 자료 조사 및 테스트">
+      <change afterPath="$PROJECT_DIR$/kotlin/programmers/school_0/problemNumber120810.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,7 @@
         <option value="Python Script" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -62,7 +66,7 @@
       <recent name="Boj" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BOJ2667Kt">
+  <component name="RunManager" selected="Kotlin.ProblemNumber120810Kt">
     <configuration name="BOJ1260MyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fast_369.graph_search.BOJ1260MyKt" />
       <module name="studyCSproblem" />
@@ -84,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunMainKt" />
+    <configuration name="ProblemNumber120810Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.school_0.ProblemNumber120810Kt" />
       <module name="studyCSproblem" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ProblemNumber120810Kt" />
         <item itemvalue="Kotlin.BOJ2667Kt" />
         <item itemvalue="Kotlin.BOJ1260MyKt" />
         <item itemvalue="Kotlin.CookBookRegexKt" />
         <item itemvalue="Kotlin.SimpleTestKt" />
-        <item itemvalue="Kotlin.RunMainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +128,10 @@
       <workItem from="1658363496977" duration="13675000" />
       <workItem from="1658973081794" duration="66000" />
       <workItem from="1659660349194" duration="5438000" />
+      <workItem from="1660808941935" duration="322000" />
+      <workItem from="1661823666265" duration="619000" />
+      <workItem from="1666140004203" duration="889000" />
+      <workItem from="1666142060655" duration="15866000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새ㅐㅇ성">
       <created>1637051780413</created>
@@ -216,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659687952118</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="날짜 계산 하는 방법 자료 조사 및 테스트">
+      <created>1660809153917</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660809153917</updated>
+    </task>
+    <task id="LOCAL-00015" summary="날짜 계산 하는 방법 자료 조사 및 테스트">
+      <created>1660809157696</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660809157696</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
