@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="날짜 계산 하는 방법 자료 조사 및 테스트">
-      <change afterPath="$PROJECT_DIR$/kotlin/programmers/school_0/problemNumber120810.kt" afterDir="false" />
+    <list default="true" id="71a3c727-7011-43d0-932d-4064b6ccc308" name="Default Changelist" comment="[(programmers) 입문 문제 풀이]&#10;&#10; 큰 어려움 없이 풀이가 진행되기 때문에 간단한 테스트 중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/programmers/school_0/problemNumber120810.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/programmers/school_0/problemNumber120810.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,8 @@
       <workItem from="1660808941935" duration="322000" />
       <workItem from="1661823666265" duration="619000" />
       <workItem from="1666140004203" duration="889000" />
-      <workItem from="1666142060655" duration="15866000" />
+      <workItem from="1666142060655" duration="16190000" />
+      <workItem from="1666225891285" duration="16066000" />
     </task>
     <task id="LOCAL-00001" summary="레포지토리 새ㅐㅇ성">
       <created>1637051780413</created>
@@ -238,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660809157696</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[(programmers) 입문 문제 풀이]&#10;&#10; 큰 어려움 없이 풀이가 진행되기 때문에 간단한 테스트 중">
+      <created>1666165775126</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165775126</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[(programmers) 입문 문제 풀이]&#10;&#10; 큰 어려움 없이 풀이가 진행되기 때문에 간단한 테스트 중">
+      <created>1666165996373</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165996373</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +282,8 @@
     <MESSAGE value="2022 카카오 1번 풀이중" />
     <MESSAGE value="패스워드 정규식 적용" />
     <MESSAGE value="날짜 계산 하는 방법 자료 조사 및 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="날짜 계산 하는 방법 자료 조사 및 테스트" />
+    <MESSAGE value="[(programmers) 입문 문제 풀이]&#10;&#10; 큰 어려움 없이 풀이가 진행되기 때문에 간단한 테스트 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="[(programmers) 입문 문제 풀이]&#10;&#10; 큰 어려움 없이 풀이가 진행되기 때문에 간단한 테스트 중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
